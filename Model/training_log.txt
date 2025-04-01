@@ -1,0 +1,5 @@
+Device Used: GPU
+Train Accuracy: 0.4353, Train Loss: 1.4674
+Test Accuracy: 0.5352, Test Loss: 1.2869
+Total Training Time: 2825.66 seconds
+Logs stored at: logs/fit/20250303-121854
