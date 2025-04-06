@@ -22,8 +22,6 @@ The approach involves a deep learning pipeline trained on a dataset of sign lang
 
 #### Apply Data Augmentation
 - Run `dataAug.py` to apply transformations to the dataset.
-- Press **'S'** to start augmentation.
-- Press **'Q'** to quit the script.
 - Augmented images enhance model generalization and prevent overfitting.
 
 ### Training the Model
@@ -45,9 +43,8 @@ The approach involves a deep learning pipeline trained on a dataset of sign lang
 #### Load the Trained Model
 - Ensure `mobilenetv3_sign_language_model.keras` is available in the working directory.
 - Run `test.py` to classify sign gestures in real-time using webcam input.
-- The model processes video frames, detects hands, and predicts the corresponding sign language gesture.
-- Press **'S'** to capture an image.
 - Press **'Q'** to quit the script.
+- The model processes video frames, detects hands, and predicts the corresponding sign language gesture.
 
 ## Model Performance
 | Metric              | Value  |
@@ -96,8 +93,6 @@ Since training and inference are computationally intensive, GPU acceleration can
    ```sh
    python dataAug.py
    ```
-   - Press **'S'** to start augmentation.
-   - Press **'Q'** to quit the script.
 
 3. **Train the Model:**
    ```sh
@@ -108,7 +103,6 @@ Since training and inference are computationally intensive, GPU acceleration can
    ```sh
    python test.py
    ```
-   - Press **'S'** to capture an image.
    - Press **'Q'** to quit the script.
 
 ## License
